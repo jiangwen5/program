@@ -1,0 +1,308 @@
+*{
+	margin:0;
+	padding:0;
+}
+h1, h2, h3, h4, h5, h6,b{
+	font-weight:normal;
+}
+ul,li{
+	list-style: none;
+}
+input{
+	border:none;
+}
+a{
+	text-decoration:none;
+}
+img{
+	border-style:none;
+}
+
+.header{
+	width:1000px;
+	height:100px;
+	margin:0 auto;
+}
+.header a{
+	float:left;
+}
+.header a img{
+	width:194px;
+	height:100px;
+}
+.header_R{
+	position:relative;
+	width:794px;
+	height:100px;
+	float:right;
+}
+.header_R p{
+	width:792px;
+	height:24px;
+	margin-top:36px;
+	font-size:12px;
+	color:#333333;
+	line-height:24px;
+	text-align:center;
+	border:solid 1px #fecd66;
+	background:#fefff1;
+}
+.header_R span{
+	position:absolute;
+	right:0;
+	bottom:0;
+	width:164px;
+	height:38px;
+}
+.header_R span i{
+	width:18px;
+	height:38px;
+	font-size:18px;
+	line-height:38px;
+}
+.header_R span b{
+	width:136px;
+	height:38px;
+	font-size:12px;
+	color:#333333;
+	line-height:38px;
+	float:right;
+}
+.banner{
+	width:100%;
+	height:570px;
+	background:url(../images/login2.jpg);
+	background-position:-560px 0;
+}
+.banner .banner_con{
+	position:relative;
+	width:1400px;
+	height:570px;
+}
+.banner .login{
+	position:absolute;	
+	top:48px;
+	right:214px;
+	width:362px;
+	height:410px;
+	background:#fff;
+}
+.banner .login_head{
+	width:362px;
+	height:50px;
+	border-bottom:solid 1px #eeeeee;
+	margin-bottom:40px;
+}
+.banner .login_head a{
+	display:block;
+	width:181px;
+	height:50px;
+	font-size:16px;
+	color:#333333;
+	text-align:center;
+	line-height:50px;
+	float:left;
+}
+.banner .login_head .login_code{
+	background:url(../images/login2_03.jpg) no-repeat center right;
+}
+.banner .login_head a:hover{
+	color:#ff6600;
+}
+.banner .login_center{
+	width:362px;
+	height:215px;
+}
+.banner .login_center .input{
+	width:310px;
+	height:36px;
+	border:solid 1px #dddddd;
+	margin-bottom:20px;
+	margin-left:25px;
+}
+.banner .login_center .input i{
+	display:block;
+	width:40px;
+	height:36px;
+	font-size:20px;
+	color:#cccccc;
+	text-align:center;
+	line-height:36px;
+	float:left;
+}
+.banner .login_center .input input{
+	width:270px;
+	height:36px;
+	font-size:12px;
+	color:#cccccc;
+	line-height:36px;
+	float:right;
+}
+.banner .login_message{
+	width:310px;
+	height:34px;
+	padding-top:12px;
+	margin-left:25px;
+}
+.banner .login_message .left{
+	width:104px;
+	height:34px;
+	float:left;
+}
+.banner .login_message .left i{
+	display:block;
+	width:20px;
+	height:34px;
+	font-size:16px;
+	color:#999999;
+	line-height:34px;
+	float:left;
+}
+.banner .login_message .left a{
+	display:block;
+	width:84px;
+	height:34px;
+	font-size:12px;
+	color:#333333;
+	line-height:34px;
+	float:right;
+}
+.banner .login_message .left a:hover{
+	color:#ff6600;
+}
+.banner .login_message .right{
+	width:58px;
+	height:34px;
+	font-size:12px;
+	color:#333333;
+	line-height:34px;
+	float:right;
+}
+.banner .login_message .right:hover{
+	color:#ff6600;
+}
+.banner button{
+	width:310px;
+	height:40px;
+	background:#ff6600;
+	border-radius:4px;
+	font-size:18px;
+	font-weight:bolder;
+	color:#fff;
+	text-align:center;
+	border:none;
+	line-height:40px;
+	margin-left:25px;
+}
+.banner .sup{
+	width:310px;
+	height:40px;
+	margin-left:25px;
+	font-size:12px;;
+	text-align:center;
+}
+.banner .sup a{
+	color:#333333;
+}
+.banner .sup a:hover{
+	color:#ff6600;
+}
+.banner .login_foot{
+	width:310px;
+	height:64px;
+	margin-left:25px;
+}
+.banner .login_foot .foot_1{
+	width:310px;
+	height:30px;
+}
+.banner .foot_1 .line{
+	display:inline-block;
+	width:91px;
+	border-top:solid 1px #999999;
+	vertical-align:middle;
+}
+.banner .foot_1 .tex{
+	display:inline-block;
+	width:118px;
+	font-size:12px;
+	text-align:center;
+	color:#999999;
+	vertical-align:middle;
+}
+.banner .login_foot .foot_2{
+	width:310px;
+	height:34px;
+}
+.banner .login_foot .foot_2 .account{
+	background:url(../images/loginff_03.jpg) no-repeat center right;
+	padding:2px 8px;
+	float:left;
+}
+.banner .foot_2 .account i,p{
+	float:left;
+}
+.banner .foot_2 .account i{
+	font-size:18px;
+	line-height:20px;
+}
+.banner .foot_2 .account p{
+	font-size:12px;
+	color:#333333;
+	padding-left:5px;
+}
+.banner .foot_2 .qq i{
+	color:#65a3de;
+}
+.banner .foot_2 .wx i{
+	color:#51c332;
+}
+.banner .foot_2 .yfb i{
+	color:#008ad9;
+}
+.banner .foot_2 .account:hover p{
+	color:#ff6600; 
+}
+.footer{
+	width:970px;
+	height:130px;
+	margin:15px auto;
+}
+.footer_1,.footer_2,.footer_3,.footer_4{
+	height:28px;
+}
+.footer_1{
+	margin-left:105px;
+}
+.footer_2{
+	margin-left:86px;
+}
+.footer li{
+	float:left;
+}
+.footer li a{
+	display:block;
+	font-size:12px;
+	color:#666666;
+	background:url(../images/foot.jpg) no-repeat center right;
+	padding:6px 10px;
+}
+.footer .nobd{
+	background:none;
+}
+.footer .footer_3 p{
+	font-size:12px;
+	color:#999999;
+	line-height:28px;
+}
+.footer .footer_4{
+	width:352px;
+	height:24px;
+	margin-top:6px;
+	margin-left:309px;
+}
+.footer .footer_4 img{
+	width:76px;
+	height:24px;
+	margin-right:8px;
+}

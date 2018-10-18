@@ -1,0 +1,16 @@
+[
+    {
+	    "id": 1, 
+	    "img":"images/good24.webp.jpg",
+	    "name": "TCL BCD三门冰箱 风冷无霜", 
+	    "price":"169.00",
+	    "ount":"1"
+    },
+    {
+    	"id": 2, 
+    	"img":"images/small1.jpg",
+    	"name": "欢乐家256g/瓶 黄桃罐头", 
+    	"price": "1800.00",
+    	"count":"1"
+    }   
+]

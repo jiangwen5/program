@@ -1,0 +1,285 @@
+*{
+	margin:0;
+	padding:0;
+}
+h1, h2, h3, h4, h5, h6,b{
+	font-weight:normal;
+}
+ul,li{
+	list-style: none;
+}
+input{
+	border:none;
+}
+a{
+	text-decoration:none;
+}
+img{
+	border-style:none;
+}
+input{
+	outline: none;
+}
+html{
+	width:100%;
+	height:100%;
+	background:#f8f8f8;
+}
+.header{
+	width:990px;
+	height:86px;
+	margin:0 auto;
+}
+.header_left{
+	width:290px;
+	height:86px;
+	float:left;
+}
+.header_left a{
+	width:190px;
+	height:86px;
+	float:left;
+}
+.header_left a img{
+	width:190px;
+	height:62px;
+	padding-top:12px;
+}
+.header_left p{
+	display:block;
+	width:74px;
+	height:86px;
+	font-size:17px;
+	color:#666666;
+	line-height:86px;
+	text-align:center;
+	float:right;
+}
+.header_right{
+	position:relative;
+	width:130px;
+	height:86px;
+	float:right;
+}
+.header_right a{
+	position:absolute;
+	display:block;
+	height:32px;
+	width:130px;
+	font-size:12px;
+	color:#333333;
+	text-align:center;
+	line-height:32px;
+	right:0;
+	bottom:0;
+}
+.header_right a:hover{
+	color:#f60105;
+}
+.center{
+	width:990px;
+	height:460px;
+	border:1px solid #dddddd;
+	border-top:3px solid #ff9900;
+	margin:0 auto;
+	background:#fff;
+}
+form{
+	width:380px;
+	height:380px;
+	margin:45px auto;
+}
+form .gift{
+	width:380px;
+	height:20px;
+}
+form .gift i{
+	width:20px;
+	height:20px;
+	font-size:18px;
+	color:#ffaa00;
+	float:left;
+}
+form .gift h1{
+	display:block;
+	width:356px;
+	height:20px;
+	font-size:16px;
+	color:#222222;
+	line-height:20px;
+	float:right;
+}
+form .gift h1 b{
+	color:#ff4400;
+}
+.phone{
+	position:relative;
+	width:378px;
+	height:36px;
+	border:solid 1px #cccccc;
+	margin-top:15px;
+	margin-bottom:25px;
+}
+.phone span{
+	display:block;
+	width:78px;
+	height:36px;
+	font-size:12px;
+	color:#222222;
+	margin-left:10px;
+	line-height:36px;
+	float:left;
+}
+.phone p{
+	position:absolute;
+	left:0;
+	top:36px;
+	font-size:12px;
+	color:#ff6600;
+}
+.phone_number input,.password input{
+	width:290px;
+	height:36px;
+	font-size:12px;
+	color:#cdcdcd;
+	line-height:36px;
+	float:right;
+}
+.phone_code input{
+	width:140px;
+	height:36px;
+	font-size:12px;
+	color:#cdcdcd;
+	line-height:36px;
+	float:left;
+}
+.phone_code button{
+	width:150px;
+	height:36px;
+	font-size:12px;
+	color:#333333;
+	background:#f5f5f5;
+	text-align:center;
+	line-height:36px;
+	float:right;
+	border:none;
+	border-left:solid 1px #cccccc;
+}
+.agreement{
+	width:380px;
+	height:60px;
+}
+.agreement input{
+	width:12px;
+	height:12px;
+	border:solid 1px #a9a9a9;
+	background:#e5e5e5;
+	margin-top:25px;
+	float:left;
+}
+.agreement p{
+	display:block;
+	width:360px;
+	height:60px;
+	font-size:12px;
+	color:#222222;
+	line-height:60px;
+	float:right;
+}
+.sign_btn{
+	width:380px;
+	height:60px;
+	background:#ff6600;
+	border-radius:2px;
+	font-size:18px;
+	color:#fff;
+	text-align:center;
+	border:none;
+	line-height:60px;
+}
+.user_sign{
+	width:380px;
+	height:20px;
+	margin-top:6px;
+}
+.user_sign i{
+	width:20px;
+	height:20px;
+	font-size:18px;
+	color:#ff6600;
+}
+.user_sign a{
+	width:360px;
+	height:20px;
+	font-size:14px;
+	color:#ff6600;
+	line-height:20px;
+}
+.footer{
+	width:818px;
+	height:192px;
+	margin:15px auto;
+}
+.footer_1,.footer_2,.footer_3,.footer_4,.footer_5{
+	height:28px;	
+}
+.footer_1{
+	margin-left:70px;
+}
+.footer_2{
+	margin-left:30px;
+}
+.footer_4{
+	margin-left:30px;
+}
+.footer_5{
+	margin-left:103px;
+}
+.footer li{
+	float:left;
+}
+.footer li a{
+	display:block;
+	font-size:12px;
+	color:#666666;
+	background:url(../images/foot.jpg) no-repeat center right;
+	padding:6px 10px;
+}
+.footer .footer_3 a,.footer_4 a{
+	display:block;
+	font-size:12px;
+	color:#999999;
+	background:url(../images/foot.jpg) no-repeat center right;
+	padding:6px 8px;
+	float:left;
+}
+.footer .footer_3 a img{
+	width:18px;
+	height:16px;
+	padding-right:5px;
+}
+.footer .footer_3 a img,p{
+	float:left;
+}
+.footer .nobd{
+	background:none;
+}
+.footer .footer_3 .nobd{
+	background:none;
+}
+.footer .footer_5 p{
+	font-size:12px;
+	color:#999999;
+	line-height:28px;
+}
+.footer .footer_6{
+	width:352px;
+	height:24px;
+	margin-top:6px;
+	margin-left:233px;
+}
+.footer .footer_6 img{
+	width:76px;
+	height:24px;
+	margin-right:8px;
+}
